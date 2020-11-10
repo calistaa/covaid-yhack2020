@@ -1,7 +1,7 @@
-import Rreact from 'react';
+import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
-const Jumbotron = () => {
+const JumbotronMain = () => {
     return (
         <div>
             <Jumbotron>
