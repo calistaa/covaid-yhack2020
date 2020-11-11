@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+//import signup from './signup';
+
+//routing signup 
+//not sure where to include this route...help!
+
+// render() {
+//   return <Router>
+//   <Route path="/" components = {Signup} />
+//   </Router>
 
 function App() {
   return (
@@ -7,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, welcome to the community.<code></code> 
         </p>
         <a
           className="App-link"
@@ -15,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          L.E.N.A
         </a>
       </header>
     </div>
