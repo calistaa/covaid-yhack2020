@@ -1,0 +1,34 @@
+{
+  "name": "npm-init-covaid",
+  "version": "1.0.0",
+  "description": "React Application for Covaid. Connecting people to helping those in need. ",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^4.0.0",
+    "google-maps-react": "^2.0.6",
+    "react-googlemaps": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glee73/covaid-yhack2020.git"
+  },
+  "keywords": [
+    "covaid",
+    "google",
+    "maps",
+    "google",
+    "calendar",
+    "yhack",
+    "api"
+  ],
+  "author": "Miriam Espino, Grace Lee, Calista Abuan, Steven Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glee73/covaid-yhack2020/issues"
+  },
+  "homepage": "https://github.com/glee73/covaid-yhack2020#readme"
+}
