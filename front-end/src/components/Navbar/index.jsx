@@ -15,7 +15,7 @@ const Navbar = props => {
             <NavLink to = "/">
                 <p> faq </p>
             </NavLink>
-            <div className = "modal" onclick = {props.viewBuildings}>
+            <div className = "modal" onclick = {props.SignUp}>
                 <p>Sign Up/Sign In</p>
             </div>
         </nav>
