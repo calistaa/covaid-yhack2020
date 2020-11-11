@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 function signUp() {
   const [validated, setValidated] = useState(false);
 
