@@ -1,36 +1,52 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-//import ReactDOM from "react-dom";
-//import signup from './signup';
+import {BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
-//routing signup 
-//not sure where to include this route...help!
+// Importing functions to their files 
+import Signup from './signup'
+import Signin from './signin'
 
-// render() {
-//   return <Router>
-//   <Route path="/" components = {Signup} />
-//   </Router>
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, welcome to the community.<code></code> 
-        </p>
-        <Route path="/src/signup/Signup.js"></Route>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          L.E.N.A
-        </a>
-      </header>
-    </div>
-  );
-}
+        <Router>
+        <Signup/>
+      <Route exact path="/">
+        <Redirect to="/Signup"/>
+      </Route>
 
-export default App;
+      <Router>
+        <Signin/>
+      <Route exact path="/">
+        <Redirect to="/Signin"/>
+      </Route>
+      </Router>
+      </Router>
+</div>
+  )
+  }
+//export default App;
+
+
+// old-code below
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Hello, welcome to the community.<code></code> 
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           L.E.N.A
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
