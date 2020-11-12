@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+//import ReactDOM from "react-dom";
 //import signup from './signup';
 
 //routing signup 
@@ -18,6 +19,7 @@ function App() {
         <p>
           Hello, welcome to the community.<code></code> 
         </p>
+        <Route path="/src/signup/Signup.js"></Route>
         <a
           className="App-link"
           href="https://reactjs.org"
